@@ -1,6 +1,6 @@
-# simple-numbers-library
+# simple-numbers.js
 
-A simple numbers library to reduce the stress of working with numbers
+The idea is simple - reduce stress of working with numbers
 
 ### Methods
 
@@ -41,3 +41,4 @@ getNums = new numMiner({
 console.log(getNums.numValues().prOdEv('odd')) //returns 1,3,5,7,9
 ```
 #THANK YOU
+# simplenumbers
