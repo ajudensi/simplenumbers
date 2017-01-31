@@ -11,8 +11,8 @@ The idea is simple - reduce stress of working with numbers
 * **diff()** Finds difference of arguments or return values from numberGenerator(). Accepts integer arguments and returns single integer.
 
 ### Relevant information
-* First, initialize the libary, by creating an object of `javascript simpleNumbers()`.
-* `simpleNumbers()` accepts an object argument with three optional arguments:
+* First, initialize the libary, by creating an object of `javascript SimpleNumbers()`.
+* `SimpleNumbers()` accepts an object argument with three optional arguments:
 * `maximumNumber` this is meant to be the maximum value used by `numberGenerator()` and `getNumbers()`. Defaults to 0.
 * `stride` used by `numberGenerator()` to produce an array of integers in steps. Defaults to 1.
 * `type` accepts a string value of either: `prime`, `odd`, `even`.
