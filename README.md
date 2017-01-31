@@ -1,4 +1,4 @@
-# simplenumbers.js
+# simplenumbers.js [![npm version](https://badge.fury.io/js/simplenumbers.svg)](https://badge.fury.io/js/simplenumbers)
 
 The idea is simple - reduce stress of working with numbers
 
@@ -60,5 +60,6 @@ var sN3 = new SimpleNumbers({
   type: 'prime' 
 });
 ```
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
 #THANK YOU
