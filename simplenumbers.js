@@ -8,7 +8,7 @@ let SimpleNumbers = (function () {
 			type: 'even',
 			stride: 1,
 			maximumNumber: -1
-		} : config);
+		} : config)
 
 		if (!(config.stride)) {
 			config.stride = 1;
@@ -45,7 +45,7 @@ let SimpleNumbers = (function () {
 			if(!(typeConfig) || (typeConfig.constructor !== Object) ? typeConfig = {
 				start: 1,
 				asMax: false
-			} : typeConfig);
+			} : typeConfig)
 
 			if (!config.type && !type) config.type = 'even';
 
@@ -99,7 +99,7 @@ let SimpleNumbers = (function () {
 								fibo.pop();
 								break;
 							}
-							if((fibo.length < 2) ? fibo.push(i) : fibo.push(fibo[fibo.length - 1] + fibo[fibo.length - 2]));
+							if((fibo.length < 2) ? fibo.push(i) : fibo.push(fibo[fibo.length - 1] + fibo[fibo.length - 2]))
 						}
 						return fibo;
 					};
