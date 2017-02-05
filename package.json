@@ -5,6 +5,7 @@
   "main": "simplenumbers.js",
   "scripts": {
     "babel": "babel simplenumbers.js --watch --out-file es5/simplenumbers.js",
+    "minify": "node minifier.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
