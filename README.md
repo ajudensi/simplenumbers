@@ -1,4 +1,4 @@
-# simplenumbers.js [![npm version](https://badge.fury.io/js/simplenumbers.svg)](https://badge.fury.io/js/simplenumbers)
+# simplenumbers.js [![npm version](https://badge.fury.io/js/simplenumbers.svg)](https://badge.fury.io/js/simplenumbers)  [![Code Climate](https://codeclimate.com/repos/58979315e4565500750093b5/badges/0642778b7852e94e94ae/gpa.svg)](https://codeclimate.com/repos/58979315e4565500750093b5/feed)  [![Issue Count](https://codeclimate.com/repos/58979315e4565500750093b5/badges/0642778b7852e94e94ae/issue_count.svg)](https://codeclimate.com/repos/58979315e4565500750093b5/feed)  
 
 The idea is simple - reduce stress of working with numbers
 
