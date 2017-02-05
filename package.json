@@ -1,0 +1,31 @@
+{
+  "name": "simplenumbers",
+  "version": "1.0.0",
+  "description": "The idea is simple - reduce the stress of working with numbers",
+  "main": "simplenumbers.js",
+  "scripts": {
+    "babel": "babel simplenumbers.js --watch --out-file es5/simplenumbers.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajudensi/simplenumbers.git"
+  },
+  "keywords": [
+    "simple",
+    "numbers",
+    "library",
+    "generator"
+  ],
+  "author": "ajudensi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajudensi/simplenumbers/issues"
+  },
+  "homepage": "https://github.com/ajudensi/simplenumbers#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "uglify-js": "^2.7.5"
+  }
+}
