@@ -4,7 +4,7 @@ let SimpleNumbers = (function () {
 
 		let producedNumbers = [];
 
-		(!(config) || (config.constructor !== Object) ? config = {
+		if(!(config) || (config.constructor !== Object) ? config = {
 			type: 'even',
 			stride: 1,
 			maximumNumber: -1
@@ -40,9 +40,9 @@ let SimpleNumbers = (function () {
 
 		this.produceNumberType = function (type, typeConfig) {
 
-			((type) ? config.type = type : (config.type && !(type)) ? config.type : 'even');
+			if((type) ? config.type = type : (config.type && !(type)) ? config.type : 'even');
 
-			(!(typeConfig) || (typeConfig.constructor !== Object) ? typeConfig = {
+			if(!(typeConfig) || (typeConfig.constructor !== Object) ? typeConfig = {
 				start: 1,
 				asMax: false
 			} : typeConfig);
@@ -99,7 +99,7 @@ let SimpleNumbers = (function () {
 								fibo.pop();
 								break;
 							}
-							((fibo.length < 2) ? fibo.push(i) : fibo.push(fibo[fibo.length - 1] + fibo[fibo.length - 2]));
+							if((fibo.length < 2) ? fibo.push(i) : fibo.push(fibo[fibo.length - 1] + fibo[fibo.length - 2]));
 						}
 						return fibo;
 					};
@@ -133,4 +133,3 @@ let SimpleNumbers = (function () {
 	};
 	return SimpleNumbers;
 })();
-module.exports = SimpleNumbers;
