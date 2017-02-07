@@ -14,8 +14,8 @@ npm install simplenumbers
 
 * **numberGenerator()**  Returns an array of generated integers. Accepts two argument, `maximumNumber` (endlimit), and a `stride`. Used for method chaining with other methods.
 * **getNumbers()** Returns an array of generated integers.Accepts as `maximumNumber`. Used independently.
-* **fibo** Returns fibonacci sequence. Accepts and object argument {start: 1, asMax: false} by defaults
-* **factorial** Returns the factorial of an integer through `numberGenerator()`
+* **fibo()** Returns fibonacci sequence. Accepts and object argument {start: 1, asMax: false} by defaults
+* **factorial()** Returns the factorial of an integer through `numberGenerator()`
 * **even()** Returns even numbers to a defined limit through `numberGenerator()`
 * **odd()** Returns odd numbers to a defined limit through `numberGenerator()`
 * **prime()** Returns prime numbers to a defined limit through `numberGenerator()`
