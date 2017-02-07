@@ -6,7 +6,7 @@
   "scripts": {
     "babel": "babel lib/simplenumbers.js --watch --out-file lib/es5/simplenumbers.js",
     "minify": "node lib/minifier.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine tests/test.js"
   },
   "repository": {
     "type": "git",
