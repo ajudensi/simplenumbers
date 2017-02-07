@@ -1,6 +1,8 @@
 # simplenumbers.js 
 
-[![npm version](https://badge.fury.io/js/simplenumbers.svg)](https://badge.fury.io/js/simplenumbers)  
+[![npm version](https://badge.fury.io/js/simplenumbers.svg)](https://badge.fury.io/js/simplenumbers)
+[![Code Climate](https://codeclimate.com/repos/5897ecbb1c39e10d26003c59/badges/b170c61c4c7427cc4d80/gpa.svg)](https://codeclimate.com/repos/5897ecbb1c39e10d26003c59/feed)
+[![Issue Count](https://codeclimate.com/repos/5897ecbb1c39e10d26003c59/badges/b170c61c4c7427cc4d80/issue_count.svg)](https://codeclimate.com/repos/5897ecbb1c39e10d26003c59/feed)
 
 The idea is simple - reduce stress of working with numbers
 
@@ -46,10 +48,10 @@ console.log(sN.numberGenerator(10).fibo());//[ 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 
 console.log(sN.numberGenerator(10).fibo({start:1, asMax: true}));//asMax=true sets 10 as maximum value in fibo sequence otherwise runs through start to 10 /** result will be [ 1, 1, 2, 3, 5, 8 ] */
 console.log(sN.getNumbers(15)); //[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 console.log(sN.getNumbers(15, true)); //starts from 1 with true specified
-console.log(sN.numberGenerator().calculate(1.5,2,'sum'));//passing multiple integers returns 3.5 second argument can be either sum, summation, addition
-console.log(sN.numberGenerator().calculate([1,2],'addition'));//passing an arrayof integers returns 3 second argument can be either sum, summation, addition
-console.log(sN.numberGenerator().calculate(1,2,'diff'));//passing multiple integers returns -1 second argument can be either diff, difference, minus, subtract
-console.log(sN.numberGenerator().calculate([1.8,2],'subtract'));//passing an array of integers returns -0.19999999999999996 second argument can be either diff, difference, minus, subtract
+console.log(sN.numberGenerator().calculate(1.5,2,'sum'));//passing multiple integers returns 3.5 
+console.log(sN.numberGenerator().calculate([1,2],'sum'));//passing an arrayof integers returns 3 
+console.log(sN.numberGenerator().calculate(1,2,'diff'));//passing multiple integers returns -1 
+console.log(sN.numberGenerator().calculate([1.8,2],'diff'));//passing an array of integers returns -0.19999999999999996
 ```
 ### Note
 Method parameters overwrite class config values
