@@ -3,6 +3,7 @@
 [![npm version](https://badge.fury.io/js/simplenumbers.svg)](https://badge.fury.io/js/simplenumbers)
 [![Code Climate](https://codeclimate.com/repos/5897ecbb1c39e10d26003c59/badges/b170c61c4c7427cc4d80/gpa.svg)](https://codeclimate.com/repos/5897ecbb1c39e10d26003c59/feed)
 [![Issue Count](https://codeclimate.com/repos/5897ecbb1c39e10d26003c59/badges/b170c61c4c7427cc4d80/issue_count.svg)](https://codeclimate.com/repos/5897ecbb1c39e10d26003c59/feed)
+[![Build Status](https://travis-ci.org/ajudensi/simplenumbers.svg?branch=master)](https://travis-ci.org/ajudensi/simplenumbers)
 
 The idea is simple - reduce stress of working with numbers
 
